@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Sign Board
+{% endblock %}
+
+{% block content %}
+<form action='sign_board'>
+    Content for board: <input type='text' name='for_board'><br>
+    Content already on the board: <input type='text' name='on_board'><br>
+    <input type='submit'>
+</form>
+{% endblock %}
