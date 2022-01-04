@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'Home',
+    'BGH',
     'SignBoard',
     'django.contrib.admin',
     'django.contrib.auth',
